@@ -1,0 +1,126 @@
+div.form-group.w-50.mx-auto.p-5 {
+  margin-bottom: 0vh;
+  padding-bottom: 0vh !important;
+}
+
+div.form-group.w-50.mx-auto.p-5 {
+  width: 100% !important;
+}
+
+div.form-group.w-50.mx-auto.p-5 i {
+  font-size: 40px !important;
+  margin-right: 40px;
+  cursor: pointer;
+  color: #4682b4;
+  margin-top: -60px;
+  right: 0px;
+  position: absolute;
+}
+div.form-group.w-50.mx-auto.p-5 textarea {
+  width: 80% !important;
+  border-color: steelblue !important;
+  margin-top: 5vh;
+  min-height: 10vh;
+  max-height: 10vh;
+  justify-content: center;
+}
+
+div.container {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+div.form-group.w-50.mx-auto.p-5 textarea:focus {
+  width: 85% !important;
+  border-color: rgb(110, 180, 70) !important;
+  margin-top: 5vh;
+  color: rgb(87, 85, 85);
+  min-height: 10vh;
+  max-height: 10vh;
+  justify-content: center;
+}
+
+.sent_div {
+  background-color: blue !important;
+  width: 20%;
+  border-radius: 30px !important;
+  margin-left: 70%;
+  padding: 3vh;
+  margin-bottom: 3vh !important;
+  color: white;
+  z-index: -1 !important;
+  text-align: center;
+}
+.rec_div {
+  background-color: rgb(105, 105, 105) !important ;
+  width: 20%;
+  border-radius: 30px !important;
+  padding: 3vh;
+  margin-bottom: 3vh !important;
+  color: white;
+  z-index: -1 !important;
+  text-align: center;
+}
+.side_out {
+  width: 15vw;
+  position: absolute;
+  top: 10vh;
+  float: left;
+  max-height: 85vh !important;
+}
+
+.chatwrapper {
+  overflow-y: scroll !important;
+  height: 68vh;
+  margin-left: 33vw;
+}
+
+li.list-group-item.active {
+  margin-top: 4vh !important;
+}
+
+li.list-group-item {
+  border-radius: 7%;
+}
+li.list-group-item:hover {
+  background-color: teal;
+}
+
+li.list-group-item.active {
+  margin-top: 8vh;
+  border-radius: 30px;
+}
+
+div.icon_wrapper.mx-auto {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-height: 95vh;
+  margin-left: 20vw !important;
+}
+
+div.data_send {
+  position: fixed !important;
+  bottom: 5vh !important;
+  left: 0 !important;
+  width: 20% !important;
+  margin-left: 30% !important;
+  min-width: 50vw;
+  min-height: 20vh !important;
+  background-color: white !important;
+}
+
+.typing {
+  position: absolute;
+  width: 30%;
+  top: 12vh !important;
+  float: right;
+  right: 24vw;
+  background-color: #007bff;
+  z-index: 5;
+  min-height: 10vh;
+  min-width: 40vw;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0px;
+}
